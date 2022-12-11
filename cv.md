@@ -1,23 +1,23 @@
 # *Valeria Pleshkova*
 
-### **Contacts:**
+## **Contacts:**
 + *Phone:* +375-XX-XXX-XX-XX
 + *Discord:* Valeria Pleshkova (@Lp-xx)
 
-### **About me:**
+## **About me:**
 some information
 
-### **Skills:**
+## **Skills:**
 some information
 
-### **Code examples:**
+## **Code examples:**
 no examples yet (maybe, adding from Codewars?)
 
-### **Working experience:**
+## **Working experience:**
 some information
 
-### **Education:**
+## **Education:**
 some information
 
-### **English:**
+## **English:**
 B1 level
