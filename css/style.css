@@ -45,6 +45,35 @@ body {
   background-color: rgb(199, 199, 199);
 }
 
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-block {
+  width: calc((100% - 30px) / 3);
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.block:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-block {
+  width: calc(((100% - 30px) / 3) * 2);
+}
+
 .footer {
   background-color: yellow;
 }
