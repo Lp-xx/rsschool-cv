@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   background-color: yellow;
 }
@@ -36,4 +43,39 @@
 .list-item:hover {
   cursor: pointer;
   background-color: rgb(199, 199, 199);
+}
+
+.footer {
+  background-color: yellow;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-year::before {
+  content: "\00A9";
+  margin-right: 5px;
+}
+
+.footer-github {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-github:hover {
+  font-weight: 600;
+  color: blue;
+}
+
+.footer-course {
+  width: 121px;
+  height: 45px;
+  background-image: url(../assets/svg/rss_logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
