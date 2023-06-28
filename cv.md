@@ -11,7 +11,7 @@ some information
 some information
 
 ### **Code examples:**
-no examples yet (maybe, adding from Codewars?)
+a task from Codewars will be added here later
 
 ### **Working experience:**
 some information
@@ -20,4 +20,4 @@ some information
 some information
 
 ### **English:**
-B1 level
+B2 level
