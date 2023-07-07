@@ -130,3 +130,123 @@ html {
   height: 100%;
   object-fit: cover;
 }
+
+.info-block-wrapper {
+  background-color: #fcfcfc;
+  border-top: 1px dashed #cfcfcf;
+  border-bottom: 1px dashed #cfcfcf;
+}
+
+.info-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.info {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info:first-child {
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.skills-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-item {
+  margin-bottom: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-item:last-child {
+  margin-bottom: 0;
+}
+
+.skills-item p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.skills-item-progress {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
+
+.skills-item-progress::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.html-skills-item-progress::before {
+  width: 70%;
+  background-color: #d8484c;
+}
+
+.css-skills-item-progress::before {
+  width: 70%;
+  background-color: #337ab7;
+}
+
+.sass-skills-item-progress::before {
+  width: 50%;
+  background-color: #33b740;
+}
+
+.js-skills-item-progress::before {
+  width: 20%;
+  background-color: #fad636;
+}
+
+.git-skills-item-progress::before {
+  width: 40%;
+  background-color: #fa3674
+}
+
+.eng-skills-item-progress::before {
+  width: 50%;
+  background-color: #5d5c5c;
+}
+
+.eng-skills-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eng-skills-item p:first-child {
+  margin-right: 15px;
+}
+
+.eng-skills-item p:last-child {
+  font-weight: 400;
+  text-transform: capitalize;
+}
