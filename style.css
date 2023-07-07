@@ -250,3 +250,49 @@ html {
   font-weight: 400;
   text-transform: capitalize;
 }
+
+.code p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.code-example {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  white-space: pre-wrap;
+}
+
+.violet {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #B294BB;
+}
+
+.orange {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #DE935F;
+}
+
+.light-green {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #B5BD68;
+}
+
+.light-blue {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #89B6C5;
+}
