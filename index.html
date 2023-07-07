@@ -1,9 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/cherry_icon64.png" type="image/png"
+    sizes="64x64">
+  <title>CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="#about">About me</a>
+          </li>
+          <li class="menu-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="menu-item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="menu-item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="menu-item">
+            <a href="#courses">Courses</a>
+          </li>
+          <li class="menu-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container about-container">
+      <div class="about" id="about">
+        <h2 class="about-greeting">Hello!</h2>
+        <h2 class="about-greeting">I am <span class="about-name">Valeryia</span>
+        </h2>
+        <h1 class="about-position">Junior Front-end Developer</h1>
+        <p class="about-introduction">My name is Valeryia Pleshkova. At the
+          moment I am studying Front-end development. It was chosen as I adore
+          the process of bringing to life new things with immediate visible
+          results. My main job lays in the finance sphere, programming is my
+          hobby, but FE is something that helps me to continue thinking wider
+          than usual. Who knows, maybe it will become my future profession
+          &#x1F609;</p>
+      </div>
+
+      <div class="about-photo">
+        <img src="assets/img/avatar.png" alt="avatar">
+      </div>
+    </div>
+
+    <div class="info-block-wrapper">
+      <div class="container info-container">
+        <div class="info skills" id="skills">
+          <h2 class="title skills-title">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">
+              <p>HTML</p>
+              <div class="skills-item-progress html-skills-item-progress">
+              </div>
+            </li>
+            <li class="skills-item">
+              <p>CSS</p>
+              <div class="skills-item-progress css-skills-item-progress">
+              </div>
+            </li>
+            <li class="skills-item">
+              <p>Sass</p>
+              <div class="skills-item-progress sass-skills-item-progress">
+              </div>
+            </li>
+            <li class="skills-item">
+              <p>JavaScript</p>
+              <div class="skills-item-progress js-skills-item-progress"></div>
+            </li>
+            <li class="skills-item">
+              <p>Git, GitHub</p>
+              <div class="skills-item-progress git-skills-item-progress"></div>
+            </li>
+            <li class="skills-item">
+              <div class="eng-skills-item">
+                <p>English</p>
+                <p>B1 - Intermediate</p>
+              </div>
+              <div class="skills-item-progress eng-skills-item-progress">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="info code" id="code">
+          <h2 class="title code-title">Code</h2>
+          <p>Task: When provided with a number between 0-9, return it in
+            words.
+          </p>
+          <pre class="code-example">
+                  <code>
+          <span class="violet">function</span> <span class="orange">switchItUp</span>(<span class="orange">number</span>) {
+              <span class="violet">let</span> <span class="orange">chars</span> = [<span class="orange">0</span>, <span class="orange">1</span>, <span class="orange">2</span>, <span class="orange">3</span>, <span class="orange">4</span>, <span class="orange">5</span>, <span class="orange">6</span>, <span class="orange">7</span>, <span class="orange">8</span>, <span class="orange">9</span>];
+              <span class="violet">let</span> <span class="orange">words</span> = [<span class="light-green">"Zero"</span>, <span class="light-green">"One"</span>, <span class="light-green">"Two"</span>, <span class="light-green">"Three"</span>, <span class="light-green">"Four"</span>, <span class="light-green">"Five"</span>, <span class="light-green">"Six"</span>, <span class="light-green">"Seven"</span>, <span class="light-green">"Eight"</span>, <span class="light-green">"Nine"</span>];
+              <span class="violet">let</span> <span class="orange">ind</span> = <span class="light-blue">chars</span>.<span class="light-blue">indexOf</span>(<span class="light-blue">number</span>);
+              <span class="violet">let</span> <span class="orange">result</span> = <span class="light-blue">words</span>[<span class="light-blue">ind</span>];
+              <span class="violet">return</span> <span class="light-blue">result</span>;
+          }
+                  </code>
+                </pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="container info-container">
+      <div class="info education" id="education">
+        <h2 class="title education-title">Education</h2>
+        <p>Belarusian State Economic University</p>
+      </div>
+      <div class="info courses" id="courses">
+        <h2 class="title courses-title">Courses</h2>
+        <p><span>RSSchool:</span> JavaScript/Front-end. Stage 0</p>
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <div class="container projects-container">
+
+        <h2 class="title">Projects</h2>
+
+        <div class="projects-wrapper">
+          <a class="projects-item" href="https://github.com/Lp-xx/rsschool-cv"
+            target="_blank">
+            <img src="assets/img/cv_screenshot.png" alt="cv_project">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+      <div class="container contacts-container">
+
+        <h2 class="title">Contacts</h2>
+
+        <div class="contacts-wrapper">
+          <ul class="contacts-list">
+            <li class="contacts-item location">
+              <div class="contacts-img">
+                <img src="assets/icons/location_icon.svg" alt="location">
+              </div>
+              <p>Minsk, Belarus</p>
+            </li>
+            <li class="contacts-item email">
+              <div class="contacts-img">
+                <img src="assets/icons/mail_icon.svg" alt="email">
+              </div>
+              <p>lerapleshkova@gmail.com</p>
+            </li>
+            <li class="contacts-item telegram">
+              <div class="contacts-img">
+                <img src="assets/icons/telegram_icon.svg" alt="telegram">
+              </div>
+              <p>@lrpl_lpxx</p>
+            </li>
+          </ul>
+
+          <ul class="contacts-list">
+            <li class="contacts-item github">
+              <div class="contacts-img">
+                <img src="assets/icons/github_icon.svg" alt="github">
+              </div>
+              <p>lp-xx</p>
+            </li>
+            <li class="contacts-item discord">
+              <div class="contacts-img">
+                <img src="assets/icons/discord_icon.svg" alt="discord">
+              </div>
+              <p>Lera#2669</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-year">2023</p>
+      <a href="https://github.com/Lp-xx" class="footer-github"
+        target="_blank">Lp-xx</a>
+      <a href="https://rs.school/js-stage0/" class="footer-rsschool-logo"
+        target="_blank"></a>
+    </div>
+  </footer>
+</body>
+
 </html>
