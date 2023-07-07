@@ -1,5 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100vw;
+  height: 60px;
+  background: #000000;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-container {
+  height: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item {
+  height: 100%;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-item a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #cccccc;
+  transition: 0.3s;
+}
+
+.menu-item a:hover {
+  color: #fad636;
+  transform: scale(1.2);
 }
