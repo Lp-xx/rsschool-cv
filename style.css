@@ -303,3 +303,15 @@ html {
   font-size: 15px;
   font-style: oblique;
 }
+
+.courses p {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+.courses p span {
+  font-weight: bold;
+  font-size: 17px;
+}
