@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100vw;
+  height: 60px;
+  background: #000000;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-container {
+  height: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item {
+  height: 100%;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-item a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #cccccc;
+  transition: 0.3s;
+}
+
+.menu-item a:hover {
+  color: #fad636;
+  transform: scale(1.2);
+}
+
+.about-container {
+  padding-top: 140px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: calc(100% - 500px - 50px);
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.about-greeting {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  margin-bottom: 35px;
+}
+
+.about-greeting:first-of-type {
+  margin: 5px;
+}
+
+.about-name {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  font-style: italic;
+  color: #d8484c;
+}
+
+.about-position {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.about-introduction {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.about-photo {
+  width: 500px;
+  height: 527px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-photo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-block-wrapper {
+  background-color: #fcfcfc;
+  border-top: 1px dashed #cfcfcf;
+  border-bottom: 1px dashed #cfcfcf;
+}
+
+.info-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.info {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info:first-child {
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.skills-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-item {
+  margin-bottom: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-item:last-child {
+  margin-bottom: 0;
+}
+
+.skills-item p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.skills-item-progress {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
+
+.skills-item-progress::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.html-skills-item-progress::before {
+  width: 70%;
+  background-color: #d8484c;
+}
+
+.css-skills-item-progress::before {
+  width: 70%;
+  background-color: #337ab7;
+}
+
+.sass-skills-item-progress::before {
+  width: 50%;
+  background-color: #33b740;
+}
+
+.js-skills-item-progress::before {
+  width: 20%;
+  background-color: #fad636;
+}
+
+.git-skills-item-progress::before {
+  width: 40%;
+  background-color: #fa3674
+}
+
+.eng-skills-item-progress::before {
+  width: 50%;
+  background-color: #5d5c5c;
+}
+
+.eng-skills-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eng-skills-item p:first-child {
+  margin-right: 15px;
+}
+
+.eng-skills-item p:last-child {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.code p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.code-example {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  white-space: pre-wrap;
+}
+
+.violet {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #B294BB;
+}
+
+.orange {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #DE935F;
+}
+
+.light-green {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #B5BD68;
+}
+
+.light-blue {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #89B6C5;
+}
+
+.education p {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+.courses p {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+.courses p span {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.projects {
+  background-color: #fcfcfc;
+  border-top: 1px dashed #cfcfcf;
+  border-bottom: 1px dashed #cfcfcf;
+}
+
+.projects-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-item {
+  outline: 1px solid #cccccc;
+  display: block;
+  position: relative;
+  width: 1000px;
+  height: calc(1000px * (744 / 1902));
+  margin-bottom: 50px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.projects-item:last-child {
+  margin-bottom: 0;
+}
+
+.projects-item::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.projects-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-item:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contacts-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-list {
+  list-style: none;
+  margin-right: 150px;
+}
+
+.contacts-list:last-child {
+  margin-right: 0;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts-img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.contacts-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contacts-item p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-year {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.footer-year::before {
+  content: "\00A9";
+  margin-right: 5px;
+}
+
+.footer-github {
+  text-decoration: none;
+  font-size: 17px;
+  color: #cccccc;
+  transition: 0.3s;
+}
+
+.footer-github:hover {
+  transform: scale(1.2);
+  color: #fad636;
+}
+
+.footer-rsschool-logo {
+  width: 135px;
+  height: 60px;
+  background-image: url(assets/icons/rss_logo.svg);
+  background-size: calc(70% - 10px);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.footer-rsschool-logo:hover {
+  border-radius: 50%;
+  background-color: #fad636;
+}
