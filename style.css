@@ -70,3 +70,63 @@ html {
   color: #fad636;
   transform: scale(1.2);
 }
+
+.about-container {
+  padding-top: 140px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: calc(100% - 500px - 50px);
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.about-greeting {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  margin-bottom: 35px;
+}
+
+.about-greeting:first-of-type {
+  margin: 5px;
+}
+
+.about-name {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  font-style: italic;
+  color: #d8484c;
+}
+
+.about-position {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.about-introduction {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.about-photo {
+  width: 500px;
+  height: 527px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-photo img {
+  height: 100%;
+  object-fit: cover;
+}
