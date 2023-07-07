@@ -422,3 +422,53 @@ html {
   font-size: 18px;
   font-weight: 200;
 }
+
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-year {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.footer-year::before {
+  content: "\00A9";
+  margin-right: 5px;
+}
+
+.footer-github {
+  text-decoration: none;
+  font-size: 17px;
+  color: #cccccc;
+  transition: 0.3s;
+}
+
+.footer-github:hover {
+  transform: scale(1.2);
+  color: #fad636;
+}
+
+.footer-rsschool-logo {
+  width: 135px;
+  height: 60px;
+  background-image: url(assets/icons/rss_logo.svg);
+  background-size: calc(70% - 10px);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.footer-rsschool-logo:hover {
+  border-radius: 50%;
+  background-color: #fad636;
+}
