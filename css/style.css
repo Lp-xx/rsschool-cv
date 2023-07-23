@@ -485,3 +485,70 @@ html {
 .right-side {
     text-align: end;
 }
+
+/* ------------------------ OUR - CONTACTS - SECTION ------------------------ */
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contacts-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info {
+    margin-right: 100px;
+}
+
+.contacts-allPeople {
+    margin-bottom: 40px;
+}
+
+.contacts-name, .contacts-staff {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.contacts-staff {
+    margin-bottom: 20px;
+}
+
+.contacts-text {
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contacts-text:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-text span {
+    font-weight: bold;
+}
+
+.contacts-map {
+    width: calc((696 / 1400) * 100%);
+    height: 414px;
+    overflow: hidden;
+}
+
+.contacts-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
