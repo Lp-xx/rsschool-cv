@@ -414,3 +414,74 @@ html {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
+.coffee-text {
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.coffee-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-title {
+    font-family: 'Forum', sans-serif;
+    font-size: 40px;
+    color: #BB945F;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.coffee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.coffee-item:last-child {
+    margin-bottom: 0;
+}
+
+.coffee-description {
+    width: 100%;
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-right: 220px;
+}
+
+.coffee-price {
+    position: relative;
+    font-family: 'Forum', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee-price::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -160px;
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid #BB945F;
+}
+
+.right-side {
+    text-align: end;
+}
