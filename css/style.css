@@ -227,3 +227,71 @@ html {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
+.favorites-choice {
+    align-self: flex-start;
+    margin-bottom: 40px;
+}
+
+.favorites-legend {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.favorites-radio {
+    position: relative;
+    margin-right: 90px;
+    margin-left: 37px;
+}
+
+.favorites-radio span {
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+}
+
+.favorites-radio:last-child {
+    margin-right: 0;
+}
+
+.favorites-radio > input {
+    position: absolute;
+    opacity: 0;
+}
+
+.favorites-radio span::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: -37px;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 13px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.favorites-radio span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    opacity: 0;
+}
+
+.favorites-radio input:checked + span::after {
+    opacity: 1;
+}
+
+.favorites-radio input:checked + span {
+    font-weight: 700;
+}
