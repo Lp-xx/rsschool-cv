@@ -552,3 +552,99 @@ html {
     height: 100%;
     object-fit: cover;
 }
+
+/* -------------------- DIGITAL-LIBRARY-CARDS - SECTION -------------------- */
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.cards-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 344px;
+}
+
+.cards-caption {
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+}
+
+.cards-form {
+    border: 3px solid #BB945F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px 20px 30px 20px;
+}
+
+.cards-fields {
+    background: #BB945F;
+    padding: 20px 20px 25px 25px;
+    margin-bottom: 20px;
+}
+
+.cards-subtitle {
+    font-family: 'Forum', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+
+.cards-item {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Forum', sans-serif;
+    font-size: 30px;
+    color: #BB945F;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    padding: 8px 20px;
+    margin-bottom: 25px;
+}
+
+.cards-item:last-child {
+    margin-bottom: 0;
+}
+
+.cards-item::placeholder {
+    font-family: 'Forum', sans-serif;
+    font-size: 30px;
+    color: #8E8E8E;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+
+.cards-form > button {
+    display: block;
+    max-width: 242px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0C0C0E;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    background: #ffffff;
+    padding: 10px 40px;
+    margin: 0 auto;
+}
+
+.cards-form > button:hover {
+    cursor: pointer;
+}
