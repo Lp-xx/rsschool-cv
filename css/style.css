@@ -630,7 +630,7 @@ html {
     letter-spacing: 0.6px;
 }
 
-.cards-form > button {
+.cards-btn {
     display: block;
     max-width: 242px;
     width: 100%;
@@ -646,5 +646,61 @@ html {
 }
 
 .cards-form > button:hover {
+    cursor: pointer;
+}
+
+.cards-reg {
+    max-width: 456px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cards-headline {
+    font-family: 'Forum', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0.6px;
+    margin-bottom: 35px;
+}
+
+.cards-desc {
+    text-align: end;
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    margin-bottom: 35px;
+}
+
+.cards-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.cards-button {
+    display: flex;
+    justify-content: center;
+    max-width: 75px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    color: #0C0C0E;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    background: #ffffff;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.cards-button:last-child {
+    margin-right: 0;
+}
+
+.cards-button:hover {
     cursor: pointer;
 }
