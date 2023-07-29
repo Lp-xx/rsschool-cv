@@ -263,6 +263,18 @@ html {
     margin-left: 37px;
 }
 
+.favorites-radio::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(0px - 17px - 20px - 5px);
+    transform: translateY(-50%);
+    display: block;
+    width: calc(100% + (17px + 20px) + 5px + 5px);
+    height: calc(100% + 5px + 5px);
+    cursor: pointer;
+}
+
 .favorites-radio span {
     position: relative;
     font-size: 20px;
