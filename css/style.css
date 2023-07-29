@@ -82,15 +82,19 @@ html {
     margin-right: 30px;
 }
 
-.menu-item:hover {
-    cursor: pointer;
-}
-
 .menu-item > a {
+    text-decoration: none;
+    display: block;
     font-size: 20px;
     color: #ffffff;
     line-height: 50px;
-    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu-item > a:hover {
+    cursor: pointer;
+    transform: skew(-15deg);
+    text-shadow: 0.7px 0 #ffffff, -0.7px 0 #ffffff, 0 0.7px #ffffff, 0 -0.7px #ffffff;
 }
 
 .menu-item:last-child {
