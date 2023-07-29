@@ -731,6 +731,8 @@ html {
 }
 
 .footer-address {
+    text-decoration: none;
+    display: block;
     font-size: 15px;
     color: #ffffff;
     line-height: 20px;
