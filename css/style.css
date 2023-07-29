@@ -407,7 +407,7 @@ html {
 
 /* ------------------------- COFFEE-SHOP - SECTION ------------------------- */
 
-.coffee-container {
+.coffeeShop-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,7 +415,7 @@ html {
     padding-bottom: 40px;
 }
 
-.coffee-text {
+.coffeeShop-text {
     font-size: 20px;
     color: #000000;
     line-height: 40px;
@@ -424,13 +424,13 @@ html {
     margin-bottom: 40px;
 }
 
-.coffee-wrapper {
+.coffeeShop-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.coffee-subtitle {
+.coffeeShop-subtitle {
     font-family: 'Forum', sans-serif;
     font-size: 40px;
     color: #BB945F;
@@ -440,18 +440,18 @@ html {
     margin-bottom: 40px;
 }
 
-.coffee-item {
+.coffeeShop-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
 
-.coffee-item:last-child {
+.coffeeShop-item:last-child {
     margin-bottom: 0;
 }
 
-.coffee-description {
+.coffeeShop-description {
     width: 100%;
     font-size: 20px;
     color: #000000;
@@ -461,7 +461,7 @@ html {
     margin-right: 220px;
 }
 
-.coffee-price {
+.coffeeShop-price {
     position: relative;
     font-family: 'Forum', sans-serif;
     font-size: 20px;
@@ -471,7 +471,7 @@ html {
     text-transform: capitalize;
 }
 
-.coffee-price::before {
+.coffeeShop-price::before {
     content: '';
     position: absolute;
     top: 50%;
