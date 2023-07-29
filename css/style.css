@@ -782,6 +782,14 @@ html {
     color: #ffffff;
     line-height: 20px;
     letter-spacing: 2px;
+    margin-right: 30px;
+}
+
+.footer-links {
+    width: calc(850 / 1400 * 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-school {
@@ -790,6 +798,7 @@ html {
     color: #ffffff;
     line-height: 20px;
     letter-spacing: 2px;
+    margin-right: 30px;
 }
 
 .footer-username {
@@ -799,3 +808,4 @@ html {
     line-height: 40px;
     letter-spacing: 2px;
 }
+
