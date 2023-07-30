@@ -588,6 +588,12 @@ html {
 .contacts-tel > a {
     text-decoration: none;
     color: #000000;
+    transition: 0.3s;
+}
+
+.contacts-tel > a:hover {
+    font-weight: 900;
+    color: #BB945F;
 }
 
 .contacts-tel:last-child {
@@ -598,6 +604,11 @@ html {
     text-decoration: none;
     font-weight: bold;
     color: #000000;
+    transition: 0.3s;
+}
+
+.contacts-text > a:hover {
+    color: #BB945F;
 }
 
 .contacts-map {
