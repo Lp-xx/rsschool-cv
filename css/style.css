@@ -576,7 +576,7 @@ html {
     margin-bottom: 20px;
 }
 
-.contacts-text {
+.contacts-tel, .contacts-text {
     font-size: 20px;
     color: #000000;
     line-height: 40px;
@@ -585,12 +585,19 @@ html {
     margin-bottom: 20px;
 }
 
-.contacts-text:last-child {
+.contacts-tel > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contacts-tel:last-child {
     margin-bottom: 0;
 }
 
-.contacts-text span {
+.contacts-text > a {
+    text-decoration: none;
     font-weight: bold;
+    color: #000000;
 }
 
 .contacts-map {
