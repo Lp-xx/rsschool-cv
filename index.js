@@ -1,0 +1,1 @@
+console.log("Total points: 100");
