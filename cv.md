@@ -2,7 +2,7 @@
 
 ### **Contacts:**
 + *Phone:* +375-XX-XXX-XX-XX
-+ *Discord:* Valeria Pleshkova (@Lp-xx)
++ *Discord:* Lp-xx (@lera2669)
 
 ### **About me:**
 some information
